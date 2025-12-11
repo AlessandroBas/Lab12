@@ -52,7 +52,7 @@ class DAO:
             for row in cursor:
                 if row["difficolta"] == 'facile':
                     row["difficolta"] = 1
-                elif row["difficolta"] == 'medio':
+                elif row["difficolta"] == 'media':
                     row["difficolta"] = 1.5
                 elif row["difficolta"] == 'difficile':
                     row["difficolta"] = 2
